@@ -16,7 +16,7 @@ const yargs = require('yargs')
     alias: 'hasta',
     type: 'number',
     default: 5,
-    describre: 'Especifica hasta que número se multpilica, por defecto viene 5. Podes modificarlo a gusto!'
+    describe: 'Especifica hasta que número se multpilica, por defecto viene 5. Podes modificarlo a gusto!'
 })
 .check((argv,options) => {
     if(argv.l === true){
